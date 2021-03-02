@@ -10,7 +10,7 @@ class Item
     @bids
   end
 
-  def add_bid(addendee_num, budget)
-    @bids << [:attendee_num] = budget
+  def add_bid(addendee, budget)
+    @bids[:attendee] = budget
   end
 end
