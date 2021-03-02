@@ -10,11 +10,11 @@ class Auction
   end
 
   def item_names
-    items_by_name = []
+    names_of_items= []
     @items.each do |auction_items|
-      auction_items = item.name
-      items_by_name << aution_items
+      names_of_items << auction_items.name
     end
+      names_of_items
   end
-    items_by_name
+
 end
